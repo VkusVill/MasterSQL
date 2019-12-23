@@ -5,9 +5,11 @@ GO
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 --select * from jobs..jobs with(nolock) where job_name like '%change_checks%'
+
+----TESSSTTT
 -- =============================================
 
-create PROCEDURE [dbo].[change_checks] @id_job int
+CREATE PROCEDURE [dbo].[change_checks] @id_job int
 AS
 BEGIN
   SET NOCOUNT ON
