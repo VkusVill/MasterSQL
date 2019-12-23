@@ -6,7 +6,7 @@ GO
 -- Description:	<Description,,>
 --select * from jobs..jobs with(nolock) where job_name like '%change_checks%'
 
-----TESSSTTT
+----TESSSTTT12
 -- =============================================
 
 CREATE PROCEDURE [dbo].[change_checks] @id_job int
