@@ -1,0 +1,3 @@
+﻿CREATE USER [IZBENKA\gas.it]
+  FOR LOGIN [IZBENKA\gas.it]
+GO
