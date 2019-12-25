@@ -1,0 +1,3 @@
+﻿CREATE USER [qr]
+  FOR LOGIN [qr]
+GO
