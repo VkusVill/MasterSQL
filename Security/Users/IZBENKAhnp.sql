@@ -1,0 +1,3 @@
+﻿CREATE USER [IZBENKA\hnp]
+  FOR LOGIN [IZBENKA\hnp]
+GO

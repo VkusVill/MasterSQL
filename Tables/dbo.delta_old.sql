@@ -1,0 +1,30 @@
+﻿CREATE TABLE [dbo].[delta_old] (
+  [date_tt] [date] NOT NULL,
+  [id_group] [int] NULL,
+  [id_tt] [int] NOT NULL,
+  [id_tov] [int] NOT NULL,
+  [post] [real] NULL,
+  [digust] [real] NULL,
+  [spisanie] [real] NULL,
+  [spisanie_kach] [real] NULL,
+  [boi] [real] NULL,
+  [spisanie_dost] [real] NULL,
+  [akcia] [real] NULL,
+  [akcia_sms] [real] NULL,
+  [discount50] [real] NULL,
+  [discount50_qty] [real] NULL,
+  [discount50_sms] [real] NULL,
+  [discount50_sms_qty] [real] NULL,
+  [razniza] [real] NULL,
+  [summa] [real] NULL,
+  [quantity] [real] NULL,
+  [price] [real] NULL,
+  [date_update] [datetime] NULL,
+  [vozvrat_pok] [real] NULL,
+  [peremPlus] [real] NULL CONSTRAINT [DF_DTT_delta_peremPlus] DEFAULT (0),
+  [peremMinus] [real] NULL CONSTRAINT [DF_DTT_delta_peremMinus] DEFAULT (0),
+  [Complect] [real] NULL CONSTRAINT [DF_DTT_delta_Complect] DEFAULT (0),
+  CONSTRAINT [PK_DTT_delta] PRIMARY KEY CLUSTERED ([date_tt], [id_tt], [id_tov])
+)
+ON [PRIMARY]
+GO

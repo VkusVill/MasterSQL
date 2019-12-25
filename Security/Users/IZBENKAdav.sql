@@ -1,0 +1,3 @@
+﻿CREATE USER [IZBENKA\dav]
+  FOR LOGIN [IZBENKA\dav]
+GO

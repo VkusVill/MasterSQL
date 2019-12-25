@@ -1,0 +1,3 @@
+﻿CREATE USER [SRV-SQL03\frontol]
+  FOR LOGIN [SRV-SQL03\frontol]
+GO
