@@ -15,8 +15,8 @@ BEGIN
 	-- interfering with SELECT statements.
 	SET NOCOUNT ON;
 
-insert into jobs..Jobs_log(id_job, number_step, duration)
-select 1040,1,0
+--insert into jobs..Jobs_log(id_job, number_step, duration)
+--select 1040,1,0
 
 create table #a ([id] [int] IDENTITY(1,1) NOT NULL , id_tov int)
 

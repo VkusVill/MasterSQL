@@ -25,7 +25,7 @@ CREATE INDEX [IX_id_group]
   ON [PRIMARY]
 GO
 
-CREATE INDEX [ix_WEB_Catalog_Tovari_id_tov]
-  ON [dbo].[WEB_Catalog_Tovari] ([id_tov])
+CREATE CLUSTERED INDEX [IX_WEB_Catalog_Tovari_1]
+  ON [dbo].[WEB_Catalog_Tovari] ([id_tov], [id_group], [id_group_parent], [id_group_parent1])
   ON [PRIMARY]
 GO

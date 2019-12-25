@@ -40,6 +40,12 @@
 ON [PRIMARY]
 GO
 
+CREATE INDEX [IX_1]
+  ON [dbo].[tt] ([type_tt], [isTrainingShop], [goodcaps], [cafe], [cardscollecting], [nopackage], [cashpoint])
+  INCLUDE ([N], [id_TT], [name_TT], [tt_format], [id_group], [Shirota], [Dolgota], [adress], [Hours], [Статус], [kids_room], [PublishContacts], [instamart], [savetime], [fresh_juice], [coffee], [bakery], [job_interview], [shop_phone], [shop_phone2], [pandomat], [butcher], [CommentForWeb])
+  ON [PRIMARY]
+GO
+
 CREATE INDEX [IX_TT]
   ON [dbo].[tt] ([N], [Статус])
   ON [PRIMARY]
